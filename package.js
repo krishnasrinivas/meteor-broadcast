@@ -3,6 +3,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+  api.use('random');
   api.add_files(['lib/util.js', 'lib/eventemitter.js', 'server/server.js'], 'server');
   api.add_files(['lib/util.js', 'lib/eventemitter.js', 'client/client.js'], 'client');
 });
