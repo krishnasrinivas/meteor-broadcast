@@ -4,7 +4,7 @@ meteor-broadcast
 This package enables realtime communication between meteor clients without mongo.
 Not added to atmosphere
 
-The similar sounding meteor-pipe package is used when you need communication between a master and multiple slaves. (i.e slave can talk to master but not other slaves)
+The similar sounding meteor-pipe package is used when you need communication between a master and multiple clients. (i.e clients can talk to master but not other clients)
 
 Usage
 =====
